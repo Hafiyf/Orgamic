@@ -1,0 +1,237 @@
+.header {
+    margin-bottom: 30px;
+}
+
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+
+}
+
+.header__address {
+    display: flex;
+    align-items: center;
+    gap: 29px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+
+}
+
+.address__link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.address__city {
+    display: flex;
+    align-items: center;
+    padding: 5px 3px;
+
+    &:hover {
+        padding: 5px 3px;
+        border-radius: 5px;
+        background-color: #eeeeee;
+    }
+
+    &::before {
+        content: "";
+        width: 14px;
+        height: 16px;
+        margin-right: 7px;
+        display: inline-block;
+        background-image: url('../images/location.svg');
+    }
+}
+
+.address__email {
+    display: flex;
+    align-items: center;
+    padding: 5px 3px;
+}
+
+.address__email:hover {
+    padding: 5px 3px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+}
+
+.address__email::before {
+    content: "";
+    width: 20px;
+    height: 16px;
+    margin-right: 9px;
+    display: inline-block;
+    background-image: url('../images/envelop.svg');
+}
+
+/* header__top */
+.header__socials {
+    display: flex;
+    align-items: center;
+    gap: 31px;
+
+}
+
+.header__lang {
+    width: 60px;
+    appearance: none;
+    -moz-appearance: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center right;
+    background-image: url('../images/arrow-d.svg');
+}
+
+.social__links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* end of header__top */
+
+/* header__bottom */
+.header__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar__list:last-child {
+    margin-right: 0;
+}
+
+.navbar__item {
+    margin-right: 32px;
+    padding: 5px 3px;
+    border: 1px solid transparent;
+
+}
+
+.navbar__item:active {
+    padding: 5px 3px;
+    border-radius: 3px;
+    background-color: #76A713;
+}
+
+.navbar__home {
+    text-decoration: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #76A713;
+}
+
+.navbar__home:active {
+    color: #000000;
+}
+
+.navbar__link {
+
+    text-decoration: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.header__links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 30px;
+    border: 2px solid transparent;
+
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #76A713;
+
+    &:hover {
+        box-shadow: 0 1px 5px #76A713;
+    }
+}
+
+.login:active {
+    color: #191D28;
+    border: 2px solid #191D28;
+    border-radius: 2px;
+    background: none;
+    box-shadow: none;
+}
+
+.search-btn {
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: #EEEEEE;
+    border: none;
+    cursor: pointer;
+
+    background-image: url('../images/search.svg');
+    background-position: 50% 13px;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+}
+
+.search-btn:active {
+    background-color: #aaaaaa;
+
+}
+
+.korzina-btn {
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: #EEEEEE;
+    border: none;
+    cursor: pointer;
+
+    background-image: url('../images/korzina.svg');
+    background-position: 60% 8px;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+}
+
+.korzina-btn:active {
+    background-color: #aaaaaa;
+
+}

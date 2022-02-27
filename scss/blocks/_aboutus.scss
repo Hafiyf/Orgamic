@@ -1,0 +1,131 @@
+.aboutus {
+    padding-top: 209px;
+    padding-bottom: 105px;
+    background-color: #FFFFFF;
+}
+
+.aboutus__container {
+    display: flex;
+    align-items: center;
+}
+
+.heading-img {
+    content: "";
+    width: 271px;
+    height: 430px;
+    background-image: url('../images/hqof.png');
+}
+
+.experience {
+
+    margin-left: 30px;
+}
+
+.exper-img {
+    margin-bottom: 30px;
+    content: "";
+    width: 271px;
+    height: 300px;
+    background-image: url('../images/hqof2.png');
+}
+
+.exper-h {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.03em;
+
+    text-align: center;
+    margin: 0;
+    padding: 4px 0;
+    border: 1px dashed #76A713;
+    color: #76A713;
+}
+
+.aboutus__script {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    padding-bottom: 20px;
+}
+
+.aboutus__heading {
+    width: 517px;
+    height: 178px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 89px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+
+    color: #191D28;
+}
+
+.aboutus__text {
+    width: 570px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-left: 0;
+    margin-right: 0;
+
+    color: #888888;
+}
+
+.aboutus__blockquote {
+    width: 489px;
+    font-family: 'Gilroy';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #AAAAAA;
+
+    margin: 0;
+    padding: 0;
+    border-left: 3px solid #76A713;
+    padding-left: 20px;
+
+    &::after {
+        content: "";
+        width: 28px;
+        height: 20px;
+        background-repeat: no-repeat;
+        background-position: right right;
+        background-image: url('../images/quote.png');
+    }
+}
+
+.aboutus__cite {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.cite__span {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+
+    color: #AAAAAA;
+
+}
+
+/* End of about us */

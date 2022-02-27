@@ -1,0 +1,123 @@
+.catigories {
+    padding: 100px 115px;
+    background-color: #F8F8F8;
+}
+
+.catigor__list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.catigor__item-vegetables {
+    width: 270px;
+    height: 354px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+
+.catigor__heading-vegetables {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+
+    color: #76A713;
+}
+
+.catigor__link-shopnow {
+    width: 120px;
+    height: 40px;
+    padding: 11px 18px;
+    margin-top: 27px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+
+    color: #ffffff;
+    background: #76A713;
+
+    &:hover {
+        box-shadow: 0 0 5px #76A713;
+    }
+
+    &:active {
+        color: #191D28;
+        border: 2px solid #191D28;
+        background: none;
+        box-shadow: none;
+
+    }
+}
+
+.catigor__item {
+    width: 270px;
+    height: 354px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+
+    border: 1px solid #76A713;
+}
+
+.catigor__heading {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+
+    color: #000000;
+}
+
+.catigor__p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+
+    color: #888888;
+
+    margin: {
+        top: 13px;
+    }
+}
+
+.catigor__link {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 27px;
+    text-decoration: none;
+    border: 1px solid #76A713;
+
+    &:hover {
+        box-shadow: 0 1px 5px #76A713;
+    }
+
+    &:active {
+        padding: 7px 12px;
+        margin-top: 31px;
+        color: #191D28;
+        background: none;
+        border: 2px solid #76A713;
+    }
+}
+
+
+
+

@@ -1,0 +1,97 @@
+.featured {
+    padding-top: 130px;
+    padding-bottom: 77px;
+}
+
+.featured__container {
+    display: flex;
+    text-align: right;
+}
+
+.featured__wrappers {
+    width: 585px;
+    height: 300px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url("../images/blueprint.png");
+}
+
+.featured-wrapper__script {
+    margin-right: 40px;
+}
+
+.wrapper-left__buynow {
+    background: #FF6600;
+
+    &:hover {
+        box-shadow: 0 0 5px #FFFFFF;
+    }
+}
+
+.wrapper-right__buynow {
+    background: #76A713;
+
+    &:hover {
+        box-shadow: 0 0 5px #FFFFFF;
+    }
+}
+
+.featured__text {
+    margin: 0 0 0 0;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.featured__heading {
+    width: 260px;
+    height: 118px;
+    margin: 0 0 29px 300px;
+    padding: 0;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 59px;
+
+    color: #FFFFFF;
+}
+
+.featured-wrapper__buynow {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 0 0 0;
+    padding: 11px 19px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+}
+
+.featured__wrapper-right {
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url('../images/fruitvegetables.png');
+}
+
+.featured-wrapper__buynow:active {
+    color: #191D28;
+    background: none;
+    border: 2px solid #191D28;
+    border-radius: 5px;
+}
+
+/* End of Featured */
