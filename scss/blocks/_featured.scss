@@ -27,17 +27,11 @@
 .wrapper-left__buynow {
     background: #FF6600;
 
-    &:hover {
-        box-shadow: 0 0 5px #FFFFFF;
-    }
 }
 
 .wrapper-right__buynow {
     background: #76A713;
 
-    &:hover {
-        box-shadow: 0 0 5px #FFFFFF;
-    }
 }
 
 .featured__text {
@@ -79,6 +73,17 @@
 
     color: #FFFFFF;
 
+    &:hover {
+        color: #191D28;
+    }
+
+    &:active {
+        color: #191D28;
+        border: 2px solid #191D28;
+        border-radius: 5px;
+        background: none;
+        box-shadow: none;
+    }
 }
 
 .featured__wrapper-right {
@@ -87,11 +92,5 @@
     background-image: url('../images/fruitvegetables.png');
 }
 
-.featured-wrapper__buynow:active {
-    color: #191D28;
-    background: none;
-    border: 2px solid #191D28;
-    border-radius: 5px;
-}
 
 /* End of Featured */
