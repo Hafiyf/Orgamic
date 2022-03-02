@@ -1626,6 +1626,7 @@ ul {
 }
 
 .test__wrapper .test__right {
+  display: block;
   width: 465px;
   height: 100%;
   background: rgba(118, 167, 19, 0.3);
