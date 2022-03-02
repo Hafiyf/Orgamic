@@ -6,7 +6,7 @@
 
     padding: {
         top: 77px;
-        bottom: 100px;
+        margin-bottom: 100px;
     }
 
     .pop-prods__heading {
@@ -80,13 +80,18 @@
     margin-left: 30px;
     margin-bottom: 30px;
 
+    .pp-functions {
+        visibility: hidden;
+    }
+
     &:hover {
-        // border: 2px solid #76A713;
         box-sizing: border-box;
         box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
     }
 
-    
+    &:hover .pp-functions {
+        visibility: visible;
+    }
 }
 
 .pp__img-blackberry {
@@ -99,6 +104,27 @@
     border-top: 1px solid #76a713;
     border-right: 1px solid #76a713;
     border-left: 1px solid #76a713;
+}
+
+.pp-functions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.pp-function__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
 }
 
 .avocado__off {
@@ -133,6 +159,14 @@
     border-top: 1px solid #dddddd;
     border-right: 1px solid #dddddd;
     border-left: 1px solid #dddddd;
+
+    &:hover {
+
+
+        border-top: 1px solid #76a713;
+        border-right: 1px solid #76a713;
+        border-left: 1px solid #76a713;
+    }
 }
 
 .pop-prods__img {
@@ -159,7 +193,7 @@
 }
 
 .pop-prods__price {
-    font-family: Gilroy;
+    font-family: 'Gilroy';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;

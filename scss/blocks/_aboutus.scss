@@ -22,10 +22,10 @@
 }
 
 .exper-img {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     content: "";
     width: 271px;
-    height: 300px;
+    height: 310px;
     background-image: url('../images/hqof2.png');
 }
 
@@ -37,7 +37,12 @@
     letter-spacing: 0.03em;
 
     text-align: center;
-    margin: 0;
+    margin: {
+        top: 10px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
     padding: 4px 0;
     border: 1px dashed #76A713;
     color: #76A713;
