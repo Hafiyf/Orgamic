@@ -13,8 +13,8 @@
     text-align: center;
     width: 1170px;
     height: 291px;
-    position: absolute;
-    bottom: -190px;
+    // position: absolute;
+    bottom: 500px;
 
     background-color: #76a713;
     background-repeat: no-repeat;
@@ -44,30 +44,17 @@
 }
 
 .test__wrapper {
-    display: flex;
-    // margin-top: 191px;
+    position: relative;
+    left: 95px;
+    height: 740px;
+    background-repeat: no-repeat;
+    background-size: 410px 740px;
+    background-position: right center;
+    background-image: url(../images/test-bg.png);
     
-    .test__left {
-        width: 715px;
-        height: 100%;
-        position: relative;
-    }
-    
-    .test__left-img {
-        width: 662px;
-        height: 540px;
+    .test__man {
         position: absolute;
-        top: 300px;
-        left: -100px;
-        background-repeat: no-repeat;
-        background-image: url('../images/testimonials-man.png');
-    }
-    
-    
-    .test__right {
-        display: block;
-        width: 465px;
-        height: 100%;
-        background: rgba(118, 167, 19, 0.3);
+        top: 200px;
+        left: -190px;
     }
 }
