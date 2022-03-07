@@ -20,17 +20,17 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url('../images/funfact.png');
-    
+
     .funfact__number {
         font-family: 'Oswald';
         font-style: normal;
         font-weight: bold;
         font-size: 60px;
         line-height: 150%;
-    
+
         color: #FFFFFF;
     }
-    
+
     .funfact__text {
         font-family: 'Oswald';
         font-style: normal;
@@ -38,7 +38,7 @@
         font-size: 25px;
         letter-spacing: 2px;
         text-transform: capitalize;
-    
+
         color: #FFFFFF;
     }
 }
@@ -51,10 +51,87 @@
     background-size: 410px 740px;
     background-position: right center;
     background-image: url(../images/test-bg.png);
-    
+
     .test__man {
         position: absolute;
         top: 200px;
         left: -190px;
+    }
+}
+
+.test__script {
+    position: absolute;
+    width: 570px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    right: 115px;
+    bottom: 70px;
+
+    box-shadow: -1px 0 5px #cccccc;
+    background-color: #FFFFFF;
+
+    .test__text {
+        font-family: 'Gilroy';
+        font-style: italic;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 170%;
+        
+        margin: {
+            top: 53px;
+            bottom: 29px;
+            left: 0;
+            right: 0;
+        }
+
+        padding: 0;
+
+        color: #AAAAAA;
+    }
+
+    .test__script-img {
+        display: inline-block;
+        margin-bottom: 8px;
+    }
+
+    .test__script-head {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 170%;
+
+        color: #000000;
+    }
+
+    .test__script-major {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 170%;
+        margin: {
+            top: 0;
+            bottom: 6px;
+            left: 0;
+            right: 0;
+        }
+        padding: 0;
+
+        color: #888888;
+    }
+
+    .test__script-star {
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+
+
+    .test__cyrcles {
+        cursor: pointer;
     }
 }
